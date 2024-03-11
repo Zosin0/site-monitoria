@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="no-js">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,13 @@
     <title>Monitoria CEUB 2024 - Ciência da Computação</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="src/images/logo-ceub.png">
 </head>
+
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
         <header class="site-header">
@@ -32,105 +38,286 @@
                     <div class="hero-inner">
                         <div class="hero-copy">
                             <h1 class="hero-title mt-0">Monitoria CEUB 2024</h1>
-                            <p class="hero-paragraph">A monitoria de ciência da computação nas localidades de Asa Norte e Taguatinga. Uma iniciativa dos alunos para ajudar aqueles com dúvidas em matérias de CIC, além de promover minicursos de C, C++, Python, Linux, e muito mais.</p>
+                            <p class="hero-paragraph">A monitoria de ciência da computação nas localidades de Asa Norte
+                                e Taguatinga. Uma iniciativa dos alunos para ajudar aqueles com dúvidas em matérias de
+                                CIC, além de promover minicursos de C, C++, Python, Linux, e muito mais.</p>
                             <div class="hero-cta">
-                                <a class="button button-primary" href="#">Saiba mais</a>
+                                <a class="button button-primary" href="#saiba-mais">Saiba mais</a>
                                 <div class="lights-toggle">
-                                    <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-                                    <label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+                                    <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch"
+                                        checked="checked">
+                                    <label for="lights-toggle" class="text-xs"><span>Mudar para <span
+                                                class="label-text">dark</span></span></label>
                                 </div>
                             </div>
                         </div>
                         <div class="hero-media">
                             <div class="header-illustration">
-                                <img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
-                                <img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
+                                <img class="header-illustration-image asset-light"
+                                    src="dist/images/header-illustration-light.svg" alt="Header illustration">
+                                <img class="header-illustration-image asset-dark"
+                                    src="dist/images/header-illustration-dark.svg" alt="Header illustration">
                             </div>
                             <div class="hero-media-illustration">
-                                <img class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
-                                <img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+                                <img class="hero-media-illustration-image asset-light"
+                                    src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
+                                <img class="hero-media-illustration-image asset-dark"
+                                    src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
                             </div>
                             <div class="hero-media-container">
-                                <img class="hero-media-image asset-light" src="dist/images/hero-media-light.svg" alt="Hero media">
-                                <img class="hero-media-image asset-dark" src="dist/images/hero-media-dark.svg" alt="Hero media">
+                                <img class="hero-media-image asset-light" src="dist/images/logo-ceub-light.png"
+                                    alt="Hero media">
+                                <img class="hero-media-image asset-dark" src="dist/images/logo-ceub-light.png"
+                                    alt="Hero media">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="features section">
+            <section class="features section" id="saiba-mais">
                 <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
-						<div class="features-header text-center">
-							<div class="container-sm">
-								<h2 class="section-title mt-0">The Product</h2>
-	                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
-								<div class="features-image">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
-									<img class="features-box asset-dark" src="dist/images/features-box-dark.svg" alt="Feature box">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
-									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
-									<img class="features-box asset-light" src="dist/images/features-box-light.svg" alt="Feature box">
-									<img class="features-illustration asset-light" src="dist/images/features-illustration-top-light.svg" alt="Feature illustration top">
-								</div>
-							</div>
+                    <div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-header text-center">
+                            <div class="container-sm">
+                                <h2 class="section-title mt-0">Funcionamento da Monitoria</h2>
+                                <p class="section-paragraph">Entenda como funciona a monitoria de Ciência da Computação
+                                    do CEUB em 2024, incluindo horários e locais.</p>
+                            </div>
                         </div>
                         <div class="features-wrap">
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-01-light.svg" alt="Feature 01">
-										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
+                                        <img class="asset-light" src="dist/images/feature-01-light.svg"
+                                            alt="Feature 01">
+                                        <img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
                                     </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
-									</div>
-								</div>
+                                    <div class="feature-content">
+                                        <h3 class="feature-title mt-0">Horários em Asa Norte</h3>
+                                        <p class="text-sm mb-0">Durante a semana: de segunda a sexta, das 11h às 12h30 e
+                                            das 17h30 às 19h. Aos sábados: das 9h às 12h, promovendo um ambiente de
+                                            aprendizado contínuo e apoio aos alunos.</p>
+                                    </div>
+                                </div>
                             </div>
-							<div class="feature is-revealing">
+                            <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-02-light.svg" alt="Feature 02">
-										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
+                                        <img class="asset-light" src="dist/images/feature-02-light.svg"
+                                            alt="Feature 02">
+                                        <img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
                                     </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
-									</div>
-								</div>
+                                    <div class="feature-content">
+                                        <h3 class="feature-title mt-0">Minicursos Oferecidos</h3>
+                                        <p class="text-sm mb-0">Além da monitoria regular, oferecemos minicursos de C,
+                                            C++, Python, Linux, e mais, para fortalecer as habilidades dos alunos nas
+                                            principais tecnologias e ferramentas da atualidade.</p>
+                                    </div>
+                                </div>
                             </div>
-							<div class="feature is-revealing">
+                            <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
+                                        <img class="asset-light" src="dist/images/feature-03-light.svg"
+                                            alt="Feature 03">
+                                        <img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
                                     </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
-									</div>
-								</div>
+                                    <div class="feature-content">
+                                        <h3 class="feature-title mt-0">Apoio ao Aluno</h3>
+                                        <p class="text-sm mb-0">Nosso objetivo é proporcionar um suporte completo aos
+                                            estudantes, ajudando a esclarecer dúvidas e reforçar o conhecimento nas
+                                            disciplinas de Ciência da Computação, em um ambiente acolhedor e
+                                            colaborativo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="swiper-section" id="carrosel">
+                <div>
+                    <div class="section-heading text-center">
+                        <h2 class="section-title">Conheça os Monitores</h2>
+                        <p style="font-weight: normal">Os mentores dedicados que tornam <br> a monitoria possível.</p>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="src/images/monitor-lucas.jfif" alt="Nome do Monitor"
+                                    style="width: 100px; height: auto; border-radius: 60%;">
+                                <h3>Lucas Zoser</h3>
+                                <p class="dsc-m">Meu nome é Lucas Zoser, tenho 22 anos e sou desenvolvedor. Atualmente,
+                                    uso a era da informação para estudar e aprender diariamente, me destacando no
+                                    mercado de desenvolvimento e buscando me tornar um desenvolvedor FullStack.
+                                    Estou disponível para todo tipo de desafio, posso oferecer minha adaptabilidade,
+                                    vontade de aprendizado rápido, resolução de problemas, fácil comunicação e
+                                    integração digital para os projetos e trabalhos solicitados. Meu destaque é com
+                                    certeza o comprometimento, serei um profissional dedicado a qualquer tarefa
+                                    submetida, combinando isso com minha facilidade com o uso de computadores e
+                                    softwares, sempre motivado a melhorar meu trabalho.</p>
+                                <a href="https://www.linkedin.com/in/lucaszoser/" target="_blank">Perfil no LinkedIn</a>
+                                <a href="https://github.com/Zosin0" target="_blank">
+                                    <img style="height: 5%; width: 5%;"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="src/images/monitor-gui1.jfif" alt="Nome do Monitor"
+                                    style="width: 100px; height: auto; border-radius: 60%;">
+                                <h3>Guilherme Nóbrega</h3>
+                                <p class="dsc-m">Olá, me chamo Guilherme. Tenho 19 anos e estou cursando Ciências da
+                                    Computação no CEUB. Atualmente mexo com projetos relacionados: Front-end web
+                                    development e ambicioso por
+                                    outros tipos de conhecimento como programação, redes, Linux.</p>
+                                <a href="https://www.linkedin.com/in/guilherme-n%C3%B3brega-40ab4a23b/"
+                                    target="_blank">Perfil no LinkedIn</a>
+                                <a href="https://github.com/" target="_blank">
+                                    <img style="height: 5%; width: 5%;"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="src/images/monitor-arthur.jfif" alt="Nome do Monitor"
+                                    style="width: 100px; height: auto; border-radius: 60%;">
+                                <h3>Arthur Arash</h3>
+                                <p class="dsc-m">Sou habilidoso em programação, com experiência em Python. Também
+                                    adquiri conhecimentos em HTML e CSS, além de uma sólida compreensão dos conceitos
+                                    básicos do Linux. Essas habilidades demonstram minha proficiência técnica e
+                                    versatilidade, posicionando-me bem no setor de tecnologia para oportunidades em
+                                    desenvolvimento de software, desenvolvimento da Web e administração de sistemas.
+                                    Estou determinado a continuar crescendo e aprimorando minhas habilidades para
+                                    permanecer na vanguarda da minha área.</p>
+                                <a href="https://www.linkedin.com/in/arthur-arash-briceno-heidari/"
+                                    target="_blank">Perfil no LinkedIn</a>
+                                <a href="https://github.com/" target="_blank">
+                                    <img style="height: 5%; width: 5%;"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="src/images/monitor-gui2.jfif" alt="Nome do Monitor"
+                                    style="width: 100px; height: auto; border-radius: 60%;">
+                                <h3>Guilherme Henrique</h3>
+                                <p class="dsc-m">Cursando Ciência da computação pelo Centro de Ensino Unificado de
+                                    Brasília (CEUB - 5° semestre)
+                                    Monitor Principal do curso de Ciência da computação (CEUB)
+                                    Estagiário de infraestrutura pela ASNAB Nacional
+                                    Consultor de TI pela TRI
+                                    Desenvolvedor Python
+                                    Desenvolvedor C.</p>
+                                <a href="https://www.linkedin.com/in/guilherme-henrique-fernandes-3593b5244/"
+                                    target="_blank">Perfil no LinkedIn</a>
+                                <a href="https://github.com/" target="_blank">
+                                    <img style="height: 5%; width: 5%;"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="src/images/monitor-giovanni.jfif" alt="Nome do Monitor"
+                                    style="width: 100px; height: auto; border-radius: 60%;">
+                                <h3>Giovanni Lelles</h3>
+                                <p class="dsc-m">Como estudante dedicado e curioso de Ciência da Computação no UniCEUB,
+                                    busco uma oportunidade como trainee na área de TI, com interesse tanto em
+                                    programação quanto em arquitetura de soluções. Trabalho atualmente como operador de
+                                    caixa em uma empresa de médio porte, onde desenvolvi habilidades em atendimento ao
+                                    cliente, resolução de problemas e trabalho em equipe. Estas habilidades serão
+                                    complementares às habilidades técnicas que venho desenvolvendo no meu curso de
+                                    graduação, para que eu possa ser bem sucedido em uma carreira em TI. Estou
+                                    determinado a aprender e me desenvolver continuamente, e estou ansioso para aplicar
+                                    minhas habilidades e conhecimentos em um ambiente profissional desafiador. Estou no
+                                    quarto semestre da graduação e tenho habilidades em Java, Python, C, SQL, HTML e
+                                    CSS. Além de habilidades adquiridas com a monitoria, onde aprendi a dar aulas e
+                                    organizar turmas.</p>
+                                <a href="https://www.linkedin.com/in/giovanni-nogueira-055564224/"
+                                    target="_blank">Perfil no LinkedIn</a>
+                                <a href="https://github.com/" target="_blank">
+                                    <img style="height: 5%; width: 5%;"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="src/images/monitor-murilo.jfif" alt="Nome do Monitor"
+                                    style="width: 100px; height: auto; border-radius: 60%;">
+                                <h3>Murilo Barbosa</h3>
+                                <p class="dsc-m">Possuo sólidas habilidades de programação, com especialização em Java e
+                                    C. Além disso, tenho uma profunda paixão por tecnologia e um forte desejo de
+                                    aprendizado contínuo. Minha experiência em Java e C me permite criar soluções
+                                    eficientes, enquanto minha dedicação ao crescimento constante me posiciona de forma
+                                    eficaz no setor de tecnologia. Tenho o compromisso de ultrapassar os limites, seja
+                                    no desenvolvimento de software, na inovação ou na solução de problemas, e aguardo
+                                    ansiosamente os desafios futuros para enriquecer ainda mais minha jornada.</p>
+                                <a href="https://www.linkedin.com/in/murilo-barbosa-cardoso-108b32261/"
+                                    target="_blank">Perfil no LinkedIn</a>
+                                <a href="https://github.com/" target="_blank">
+                                    <img style="height: 5%; width: 5%;"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="src/images/monitor-kaynan.jfif" alt="Nome do Monitor"
+                                    style="width: 100px; height: auto; border-radius: 60%;">
+                                <h3>Kaynan Macedo</h3>
+                                <p class="dsc-m">Eu sou um estudante de Ciência da Computação. Tenho uma paixão por
+                                    tecnologia e estou sempre em contato com ela, o que me levou a escolher este campo
+                                    descomplica.com.br.
+                                    Durante o meu curso, estou aprendendo sobre o desenvolvimento de programas e
+                                    softwares em múltiplos ambientes. Também estou adquirindo conhecimentos sobre
+                                    processamento gráfico, banco de dados, inteligência artificial, engenharia de
+                                    software, sistemas de informação, redes de computadores, entre outros</p>
+                                <a href="https://www.linkedin.com/in/kaynan-macedo-de-souza-9a3260231/"
+                                    target="_blank">Perfil no LinkedIn</a>
+                                <a href="https://github.com/" target="_blank">
+                                    <img style="height: 5%; width: 5%;"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <!-- Adicione controles de navegação se necessário -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container-sm">
+                    <div class="cta-inner section-inner">
+                        <div class="cta-header text-center">
+                            <h2 class="section-title mt-0">Entre em Contato</h2>
+                            <p class="section-paragraph">Tem alguma dúvida ou quer saber mais? Entre em contato conosco através do nosso grupo do WhatsApp ou envie-nos um email.</p>
+                            <!-- TODO: Adicionar links para o grupo do WhatsApp e email -->
+                            <div class="cta-cta">
+                                <a class="button button-primary" href="https://wa.me/0000000000?text=Olá!%20Estou%20interessado%20na%20monitoria." target="_blank">Grupo do WhatsApp</a>
+                                <a class="button button-secondary" href="mailto:monitoria@ceub.br?subject=Interesse%20na%20Monitoria">Enviar Email</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-			<section class="cta section">
+            <section class="cta section">
                 <div class="container-sm">
                     <div class="cta-inner section-inner">
                         <div class="cta-header text-center">
-                            <h2 class="section-title mt-0">Get it and Switch</h2>
-                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
-							<div class="cta-cta">
-								<a class="button button-primary" href="#">Buy it now</a>
-							</div>
-					    </div>
+                            <h2 class="section-title mt-0">Inscreva-se no Minicurso Atual</h2>
+                            <p class="section-paragraph">Participe dos nossos minicursos e aprimore suas habilidades em
+                                tecnologias como C, C++, Python, e Linux. Uma ótima oportunidade para expandir seus
+                                conhecimentos e interagir com outros alunos interessados.</p>
+                            <div class="cta-cta">
+                                <a class="button button-primary" href="minicurso.html">Inscreva-se agora</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
+
+
+
+
         </main>
 
         <footer class="site-footer has-top-divider">
@@ -144,10 +331,10 @@
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="contato.html">Contato</a>
                         </li>
                         <li>
-                            <a href="#">Sobre nós</a>
+                            <a href="#carrosel">Sobre nós</a>
                         </li>
                         <li>
                             <a href="#">FAQ</a>
@@ -172,5 +359,20 @@
     </div>
 
     <script src="dist/js/main.min.js"></script>
+    <script src="src/js/main.js"></script>
+    <script>
+        // Inicialização do Swiper
+        new Swiper('.swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+            },
+        });
+    </script>
 </body>
+
 </html>

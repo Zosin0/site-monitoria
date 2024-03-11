@@ -1,0 +1,111 @@
+/* Estilos do Carrossel */
+.swiper-section {
+    padding: 60px 0; /* Ajusta o espaçamento ao redor da seção do carrossel */
+    display: flex; /* Utiliza Flexbox para centralizar o conteúdo */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.section-heading {
+    margin-bottom: 40px; /* Espaçamento abaixo do título da seção */
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    flex-wrap: wrap; /* Quebra a linha se o texto for muito grande */
+}
+
+.section-title {
+    color: #333; /* Cor do título da seção */
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    
+}
+
+.swiper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Largura máxima do carrossel para não ficar muito esticado em telas grandes */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center;
+    font-size: 16px; /* Tamanho da fonte para a descrição */
+    color: #666; /* Cor do texto */
+}
+
+.dsc-m{
+    text-align: justify;
+    width: 60%;
+    align-self: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.swiper-slide img {
+    width: 100px; /* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+    align-self: center; /* Isso garante que a própria imagem esteja centralizada dentro do flex item */
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.swiper-slide h3 {
+    font-size: 18px; /* Tamanho do nome do monitor */
+    color: #333; /* Cor do nome */
+    margin-bottom: 10px; /* Espaçamento abaixo do nome */
+}
+
+.swiper-slide a {
+    color: #007bff; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: bold; /* Faz o texto do link mais grosso */
+}
+
+/* Botões de navegação */
+.swiper-button-prev, .swiper-button-next {
+    color: #007bff; /* Cor dos botões */
+    position: absolute; /* Posicionamento absoluto dentro do swiper-container */
+    top: 50%; /* Posicionamento vertical no centro */
+    transform: translate(0, -50%); /* Ajuste fino para centralização vertical */
+}
+
+.swiper-button-prev {
+    left: 10px; /* Espaço do botão da esquerda para a borda do contêiner */
+}
+
+.swiper-button-next {
+    right: 10px; /* Espaço do botão da direita para a borda do contêiner */
+}
+
+
+
+
+/* Ajustes para responsividade em dispositivos menores */
+@media (max-width: 768px) {
+    .swiper-section {
+        padding: 30px 0; /* Menos espaçamento ao redor da seção do carrossel */
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        width: 25px; /* Tamanho menor dos botões */
+        height: 25px; /* Tamanho menor dos botões */
+        background-size: 25px; /* Tamanho menor do ícone dentro dos botões */
+    }
+
+    .dsc-m{
+        width: fit-content;
+    }
+
+}
+
